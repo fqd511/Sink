@@ -26,8 +26,8 @@ export default defineNuxtConfig({
     },
     '/api/link/create': {
       headers: {
-        // 'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Origin': 'localhost, *.9jian.tech',
+        'Access-Control-Allow-Origin': '*',
+        // 'Access-Control-Allow-Origin': 'localhost, *.9jian.tech',
         'Access-Control-Allow-Headers': '*',
         'Access-Control-Allow-Methods': '*',
       },
